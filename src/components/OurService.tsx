@@ -1,16 +1,4 @@
-const links = [
-    { name: 'Open roles', href: '#' },
-    { name: 'Internship program', href: '#' },
-    { name: 'Our values', href: '#' },
-    { name: 'Meet our leadership', href: '#' },
-]
-const stats = [
-    { name: 'Offices worldwide', value: '12' },
-    { name: 'Full-time colleagues', value: '300+' },
-    { name: 'Hours per week', value: '40' },
-    { name: 'Paid time off', value: 'Unlimited' },
-]
-
+import Image from "next/image"
 const incentives = [
     {
         name: 'Free Shipping',
@@ -57,7 +45,7 @@ export default function OurService() {
                                 <div key={index} className="bg-white shadow-md group relative ">
                                     <div className="group-hover:bg-yellow-400 w-full h-0 transition-all duration-700 absolute bottom-0 group-hover:h-[100%]" />
                                     <div className="p-4 group-hover:z-10">
-                                        <img alt="" src={incentive.imageSrc} className="h-24 w-auto" />
+                                        <Image width={24} height={24} alt="image" src={incentive.imageSrc} className="h-24 w-auto" />
                                         <h3 className="mt-6 text-sm font-medium text-gray-900">{incentive.name}</h3>
                                         <p className="mt-2 text-sm text-gray-500">{incentive.description}</p>
                                     </div>

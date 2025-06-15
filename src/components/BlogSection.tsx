@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 const posts = [
   {
     id: 1,
@@ -74,8 +76,8 @@ export default function BlogSection() {
           {posts.map((post) => (
             <article key={post.id} className="flex flex-col items-start justify-between shadow border border-gray-100  ">
               <div className="relative w-full">
-                <img
-                  alt=""
+                <Image
+                  alt="image"
                   src={post.imageUrl}
                   className="aspect-video w-full  bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2"
                 />
@@ -103,7 +105,7 @@ export default function BlogSection() {
                   <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">{post.description}</p>
                 </div>
                 <div className="relative mt-8 flex items-center gap-x-4">
-                  <img alt="" src={post.author.imageUrl} className="size-10 rounded-full bg-gray-100" />
+                  <Image alt="" src={post.author.imageUrl} className="size-10 rounded-full bg-gray-100" />
                   <div className="text-sm/6">
                     <p className="font-semibold text-gray-900">
                       <a href={post.author.href}>

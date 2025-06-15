@@ -1,4 +1,5 @@
 import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image'
 
 const features = [
   {
@@ -33,7 +34,7 @@ export default function FeatureSection() {
               <div className="mx-auto lg:mx-0 gap-36">
                 <h2 className="text-3xl font-semibold tracking-tight sm:text-5xl">The world best digital solutions we provide to you</h2>
                 <p className="mt-8 font-medium text-pretty text-gray-600">
-                  There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which don't slightly. but the majority have suffered alteration in some form.
+                  There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which do not slightly. but the majority have suffered alteration in some form.
                 </p>
               </div>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">
@@ -50,7 +51,7 @@ export default function FeatureSection() {
             </div>
           </div>
           <div className="flex items-start justify-end lg:order-first overflow-hidden">
-            <img
+            <Image
               alt="Product screenshot"
               src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
               // width={2432}
