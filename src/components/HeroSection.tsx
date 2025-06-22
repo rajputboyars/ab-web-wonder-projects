@@ -48,11 +48,7 @@ export default function HeroSection() {
               </a>
             ))}
           </div>
-          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm/6 font-semibold text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+          
         </nav>
         <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
           <div className="fixed inset-0 z-50" />
@@ -90,14 +86,14 @@ export default function HeroSection() {
                     </a>
                   ))}
                 </div>
-                <div className="py-6">
+                {/* <div className="py-6">
                   <a
                     href="#"
                     className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800"
                   >
                     Log in
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </DialogPanel>

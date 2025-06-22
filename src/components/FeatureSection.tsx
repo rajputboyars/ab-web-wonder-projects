@@ -55,8 +55,8 @@ export default function FeatureSection() {
               alt="Product screenshot"
               src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png"
               width={2432}
-              height={1442}
-              className=" max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228"
+              height={500}
+              className=" max-w-none max-md:max-h-[400px] rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-228"
             />
           </div>
         </div>

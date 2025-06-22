@@ -21,14 +21,14 @@ const FunfactSection = () => {
 
   return (
     <div className=" text-white min-h-screen flex flex-col items-center justify-center p-6 relative">
-      <div className="h-[70%] -z-10 bg-gray-900 absolute w-full bottom-0" />
+      <div className="md:h-[70%] h-[85%] -z-10 bg-gray-900 absolute w-full bottom-0" />
       <div className="relative w-full max-w-6xl">
         <Image
           width={1152}
           height={500}
           src="/images/high-angle-view-cropped-employee-work-with-laptop.jpg"
           alt="Business Image"
-          className="w-full h-[500px] object-cover rounded-lg grayscale"
+          className="w-full h-[300px] md:h-[500px] object-cover rounded-lg grayscale"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <button className="bg-yellow-500 text-white rounded-full w-16 h-16 flex items-center justify-center hover:bg-yellow-600 transition">
@@ -38,8 +38,8 @@ const FunfactSection = () => {
           </button>
         </div>
       </div>
-      <div className="flex justify-between max-w-6xl w-full py-20">
-        <div className="w-[45%]">
+      <div className="flex flex-col md:flex-row justify-between max-w-6xl w-full py-20">
+        <div className="md:w-[45%]">
           <div>
             <div className="h-1 w-[10%] mb-2 bg-yellow-500 rounded-full" />
             <p className="uppercase text-yellow-400">FUNFACTS</p>
@@ -53,7 +53,7 @@ const FunfactSection = () => {
             alteration in some form, by humour or randomised words
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-[50%]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:w-[50%]">
           {stats.map(({ icon, value, label }, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg text-center">
               <div

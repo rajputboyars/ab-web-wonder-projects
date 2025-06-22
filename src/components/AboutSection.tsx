@@ -5,7 +5,22 @@ export default function AboutSection() {
     <div className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <div className="max-w-4xl">
-          <p className="text-base/7 font-semibold text-indigo-600">About us</p>
+          {/* <div>
+                    <div className="h-1 w-[50%] mb-2 mx-auto bg-yellow-500 rounded-full" />
+                    <p className="uppercase text-yellow-400">our Services</p>
+                </div>
+                <div className="mx-auto lg:mx-0 gap-36 text-center">
+                    <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-5xl/snug">Explore what services
+                        we’re offering</h2>
+                    <p className="max-md:mt-8 text-sm font-medium text-pretty text-gray-300 ">
+                        There are many variations of passages of available but majority alteration in some form, by humou or randomised words.
+                    </p>
+                </div> */}
+                <div>
+                    <div className="h-1 w-[5%] mb-2 bg-yellow-500 rounded-full" />
+                    <p className="uppercase text-yellow-400">About us</p>
+                </div>
+          {/* <p className="text-base/7 font-semibold text-indigo-600">About us</p> */}
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
             On a mission to empower remote teams
           </h1>
@@ -70,30 +85,30 @@ export default function AboutSection() {
             </div>
           </div>
           <div className="max-lg:mt-16 lg:col-span-1">
-            <p className="text-base/7 font-semibold text-gray-500">The numbers</p>
+            <p className="md:text-base/7 text-3xl/7 font-semibold text-gray-500">The numbers</p>
             <hr className="mt-6 border-t border-gray-200" />
-            <dl className="mt-6 grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
+            <dl className="mt-6 grid grid-cols-2 gap-x-8 gap-y-4 sm:grid-cols-2">
               <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
                 <dt className="text-sm/6 text-gray-600">Raised</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight">
+                <dd className="order-first text-3xl lg:text-6xl font-semibold tracking-tight">
                   $<span>150</span>M
                 </dd>
               </div>
               <div className="flex flex-col gap-y-2 border-b border-dotted border-gray-200 pb-4">
                 <dt className="text-sm/6 text-gray-600">Companies</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight">
+                <dd className="order-first text-3xl lg:text-6xl font-semibold tracking-tight">
                   <span>30</span>K
                 </dd>
               </div>
               <div className="flex flex-col gap-y-2 max-sm:border-b max-sm:border-dotted max-sm:border-gray-200 max-sm:pb-4">
                 <dt className="text-sm/6 text-gray-600">Deals Closed</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight">
+                <dd className="order-first text-3xl lg:text-6xl font-semibold tracking-tight">
                   <span>1.5</span>M
                 </dd>
               </div>
               <div className="flex flex-col gap-y-2">
                 <dt className="text-sm/6 text-gray-600">Leads Generated</dt>
-                <dd className="order-first text-6xl font-semibold tracking-tight">
+                <dd className="order-first text-3xl lg:text-6xl font-semibold tracking-tight">
                   <span>200</span>M
                 </dd>
               </div>

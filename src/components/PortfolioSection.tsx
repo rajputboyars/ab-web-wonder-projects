@@ -88,7 +88,7 @@ export default function PortfolioSection() {
                     {posts.map((post) => (
                         <article
                             key={post.id}
-                            className="relative isolate flex flex-col justify-end  rounded-2xl bg-gray-900 px-8 pt-80 pb-8 sm:pt-48 lg:pt-80 h-[450px]"
+                            className="relative isolate flex flex-col justify-end  rounded-2xl bg-gray-900 px-8 pt-80 pb-8 sm:pt-48 lg:pt-80 md:h-[450px]"
                         >
                             <Image width={360} height={360} alt="" src={post.imageUrl} className="absolute inset-0 -z-10 size-full object-cover " />
                             <div className="absolute inset-0 -z-10 bg-linear-to-t from-gray-900 via-gray-900/40" />

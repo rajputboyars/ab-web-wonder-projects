@@ -24,8 +24,8 @@ const incentives = [
 
 export default function OurService() {
     return (
-        <div className="relative isolate pt-24 sm:pt-32">
-            <div className="h-[90%]  bg-gray-900 absolute w-full top-0" />
+        <div className="relative isolate py-24 sm:pt-32">
+            <div className="md:h-[90%] h-[100%]  bg-gray-900 absolute w-full top-0" />
             <div className="mx-auto max-w-7xl px-6 lg:px-8 relative flex-col flex items-center">
                 <div>
                     <div className="h-1 w-[50%] mb-2 mx-auto bg-yellow-500 rounded-full" />

@@ -11,7 +11,7 @@ export default function WhyToChooseUsSection() {
   return (
     <div className="relative bg-zinc-300 ">
       <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
-        <div className="pr-6 pt-16 pb-24 sm:pt-20 sm:pb-32 lg:col-start-1 lg:pr-8 lg:pt-32">
+        <div className="px-6 md:pr-0 pt-16 pb-24 sm:pt-20 sm:pb-32 lg:col-start-1 lg:pr-8 lg:pt-32">
           <div className="mx-auto max-w-2xl lg:max-w-lg">
             <h2 className="text-base/8 font-semibold text-indigo-600">Our track record</h2>
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">

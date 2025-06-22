@@ -2,7 +2,7 @@ import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function ContactSection() {
     return (
-        <div className="relative min-h-[80vh] bg-[url('https://php.kodesolution.com/2025/arotech-php/images/icons/pattern-17.jpg')] h-52 w-full bg-cover bg-center bg-no-repeat">
+        <div className="relative min-h-[80vh] bg-[url('https://php.kodesolution.com/2025/arotech-php/images/icons/pattern-17.jpg')] lg:h-52 w-full bg-cover bg-center bg-no-repeat">
             <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
                 <div className=" px-6 py-16 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div className="mx-auto max-w-lg">
