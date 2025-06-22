@@ -23,6 +23,8 @@ export default function HeroSection() {
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image
+                width={1000}
+                height={800}
                 alt=""
                 src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
                 className="h-8 w-auto"
@@ -59,6 +61,8 @@ export default function HeroSection() {
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <Image
+                  width={500}
+                  height={500}
                   alt=""
                   src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
                   className="h-8 w-auto"
@@ -102,6 +106,8 @@ export default function HeroSection() {
 
       <div className="relative isolate overflow-hidden pt-14">
         <Image
+          width={2830}
+          height={1000}
           alt=""
           src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2830&q=80&blend=111827&sat=-100&exp=15&blend-mode=multiply"
           className="absolute inset-0 -z-10 size-full object-cover"
@@ -131,7 +137,7 @@ export default function HeroSection() {
             </div>
             <div className="text-center">
               <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-8xl">
-                Digital agency 
+                Digital agency
                 <br />
                 for your business
               </h1>

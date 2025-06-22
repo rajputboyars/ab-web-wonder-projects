@@ -66,7 +66,7 @@ export default function BlogSection() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="h-1 bg-yellow-400 w-[8%] mx-auto rounded-2xl"/>
+          <div className="h-1 bg-yellow-400 w-[8%] mx-auto rounded-2xl" />
           <h2 className="mt-2 text-yellow-400 tracking-tight text-balance  text-lg/8">
             From the blog
           </h2>
@@ -77,6 +77,8 @@ export default function BlogSection() {
             <article key={post.id} className="flex flex-col items-start justify-between shadow border border-gray-100  ">
               <div className="relative w-full">
                 <Image
+                  width={3603}
+                  height={256}
                   alt="image"
                   src={post.imageUrl}
                   className="aspect-video w-full  bg-gray-100 object-cover sm:aspect-2/1 lg:aspect-3/2"
@@ -105,7 +107,7 @@ export default function BlogSection() {
                   <p className="mt-5 line-clamp-3 text-sm/6 text-gray-600">{post.description}</p>
                 </div>
                 <div className="relative mt-8 flex items-center gap-x-4">
-                  <Image alt="" src={post.author.imageUrl} className="size-10 rounded-full bg-gray-100" />
+                  <Image width={256} height={256} alt="" src={post.author.imageUrl} className="size-10 rounded-full bg-gray-100" />
                   <div className="text-sm/6">
                     <p className="font-semibold text-gray-900">
                       <a href={post.author.href}>
