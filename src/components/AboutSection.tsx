@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <div className="overflow-hidden bg-white py-24 sm:py-32">
+    <div id="about-us" className="overflow-hidden bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
         <div className="max-w-4xl">
           {/* <div>
@@ -16,33 +16,48 @@ export default function AboutSection() {
                         There are many variations of passages of available but majority alteration in some form, by humou or randomised words.
                     </p>
                 </div> */}
-                <div>
-                    <div className="h-1 w-[5%] mb-2 bg-yellow-500 rounded-full" />
-                    <p className="uppercase text-yellow-400">About us</p>
-                </div>
+          <div>
+            <div className="h-1 w-[5%] mb-2 bg-yellow-500 rounded-full" />
+            <p className="uppercase text-yellow-400">About us</p>
+          </div>
           {/* <p className="text-base/7 font-semibold text-indigo-600">About us</p> */}
           <h1 className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
             On a mission to empower remote teams
           </h1>
           <p className="mt-6 text-xl/8 text-balance text-gray-700">
-            Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem. At arcu, sit dui mi, nibh dui, diam eget
-            aliquam. Quisque id at vitae feugiat egestas.
+            At <span className="text-yellow-500">AB WEB WONDER,</span> we’re dedicated to transforming businesses and students alike. We help small shop owners establish a strong online presence with custom websites, digital marketing, SEO, graphic design, and video editing. Additionally, we support college students with project development and tailored training to excel in their academic journey.
           </p>
         </div>
         <section className="mt-20 grid grid-cols-1 lg:grid-cols-2 lg:gap-x-8 lg:gap-y-16">
           <div className="lg:pr-8">
             <h2 className="text-2xl font-semibold tracking-tight text-pretty text-gray-900">Our mission</h2>
-            <p className="mt-6 text-base/7 text-gray-600">
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet
-              vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque
-              erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-              sed amet vitae sed turpis id.
-            </p>
-            <p className="mt-8 text-base/7 text-gray-600">
-              Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor
-              fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac
-              adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.
-            </p>
+            <div className="mt-6 text-base/7 text-gray-600">
+              <p>
+                We believe every small business deserves to thrive online and every student should have the tools to succeed. Our expert team uses cutting-edge technologies like MERN, Next.js, and PHP to build stunning websites, drive traffic with targeted ads, and create engaging content. For students, we offer hands-on project guidance and skill-building workshops to turn ideas into reality.
+              </p>
+              <ul>
+                <li>
+                  <span className="font-semibold text-black">For Shop Owners:</span> Affordable, all-in-one digital solutions to grow your brand.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">For Students:</span> Practical project support and training to boost your skills.
+                </li>
+                <li>
+                  <span className="font-semibold text-black">Our Promise:</span> Personalized service with no hidden costs.
+                </li>
+              </ul>
+            </div>
+            <div className="mt-8 text-base/7 text-gray-600">
+              <p className="text-black font-semibold text-lg">
+                Ready to Get Started?
+              </p>
+              <p>
+                Whether you’re a shop owner looking to go digital or a student needing project help, we’re here for you. Contact us today for a free consultation!
+              </p>
+              <button className="bg-yellow-500 text-black px-4 py-2 mt-4 uppercase font-semibold ">
+                Get in Touch
+              </button>
+            </div>
           </div>
           <div className="pt-16 lg:row-span-2 lg:-mr-16 xl:mr-auto">
             <div className="-mx-8 grid grid-cols-2 gap-4 sm:-mx-16 sm:grid-cols-4 lg:mx-0 lg:grid-cols-2 lg:gap-4 xl:gap-8">

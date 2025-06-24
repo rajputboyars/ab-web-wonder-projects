@@ -42,8 +42,7 @@ export default function OurTeam() {
                         Meet our team
                     </h2>
                     <p className="max-md:mt-8 text-sm font-medium text-pretty text-gray-300 ">
-                        We’re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the
-                        best results for our clients.
+                        We’re a passionate group of experts dedicated to transforming small shop owners’ online presence and empowering college students with project success. Our skilled developers, marketers, designers, and trainers work tirelessly to deliver outstanding results.
                     </p>
                 </div>
                 <ul

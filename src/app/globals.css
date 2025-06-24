@@ -12,6 +12,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
+html {
+  scroll-behavior: smooth; /* Enables smooth scrolling for the entire page */
+}
 /* @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

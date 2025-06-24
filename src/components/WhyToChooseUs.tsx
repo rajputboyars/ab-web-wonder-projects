@@ -1,10 +1,10 @@
 import Image from "next/image"
 
 const stats = [
-  { id: 1, name: 'Creators on the platform', value: '8,000+' },
-  { id: 2, name: 'Flat platform fee', value: '3%' },
-  { id: 3, name: 'Uptime guarantee', value: '99.9%' },
-  { id: 4, name: 'Paid out to creators', value: '$70M' },
+  { id: 1, name: 'Clients Served', value: '8,000+' },
+  { id: 2, name: 'Satisfaction Rate', value: '3%' },
+  { id: 3, name: 'Uptime Guarantee', value: '99.9%' },
+  { id: 4, name: 'Delivered Value', value: '$70M' },
 ]
 
 export default function WhyToChooseUsSection() {
@@ -13,13 +13,16 @@ export default function WhyToChooseUsSection() {
       <div className="mx-auto grid max-w-7xl lg:grid-cols-2">
         <div className="px-6 md:pr-0 pt-16 pb-24 sm:pt-20 sm:pb-32 lg:col-start-1 lg:pr-8 lg:pt-32">
           <div className="mx-auto max-w-2xl lg:max-w-lg">
-            <h2 className="text-base/8 font-semibold text-indigo-600">Our track record</h2>
+            <div>
+              <div className="h-1 w-[20%] mb-2 bg-yellow-500 rounded-full" />
+              <p className="uppercase text-yellow-500">Our track record</p>
+            </div>
+            {/* <h2 className="text-base/8 font-semibold text-yellow-600">Our track record</h2> */}
             <p className="mt-2 text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">
-              Trusted by thousands of creators worldwide
+              Trusted by thousands
             </p>
             <p className="mt-6 text-lg/8 text-gray-600">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
-              dolor cupiditate blanditiis ratione.
+              <span className="text-yellow-500 font-semibold">AB WEB WONDER</span> has a proven history of empowering small shop owners and college students with top-tier digital solutions.
             </p>
             <dl className="mt-16 grid max-w-xl grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 xl:mt-16">
               {stats.map((stat) => (

@@ -6,16 +6,19 @@ const FunfactSection = () => {
       icon: "<svg className='w-8 h-8 mx-auto' fill='currentColor' viewBox='0 0 24 24'><path d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 10.5h-1.5V9H10v4.5H8.5V12c0-.55-.45-1-1-1s-1 .45-1 1v1.5c0 .55.45 1 1 1H10c0 1.1.9 2 2 2h1.5V12h-1.5v1.5z'/></svg>",
       value: 6420,
       label: "Projects Completed",
+      subLabel:"Custom websites, marketing campaigns, and student projects brought to life."
     },
     {
       icon: "<svg className='w-8 h-8 mx-auto' fill='currentColor' viewBox='0 0 24 24'><path d='M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-7 12h-2v-2h2v2zm0-4h-2V6h2v4z'/></svg>",
       value: 9280,
       label: "Satisfied Clients",
+      subLabel:"Small businesses and students who trust our expertise."
     },
     {
       icon: "<svg className='w-8 h-8 mx-auto' fill='currentColor' viewBox='0 0 24 24'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z'/></svg>",
       value: 380,
       label: "Expert Teams",
+      subLabel:"Skilled professionals dedicated to your success."
     },
   ];
 
@@ -49,19 +52,19 @@ const FunfactSection = () => {
             We’re experts in the business
           </h1>
           <p className="mt-6 text-lg/8 text-gray-400">
-            There are many variations of passages of available majority
-            alteration in some form, by humour or randomised words
+            With years of experience, <span className="text-yellow-500 font-semibold">AB WEB WONDER</span> delivers outstanding results for shop owners and students alike.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:w-[50%]">
-          {stats.map(({ icon, value, label }, index) => (
+          {stats.map(({ icon, value, label ,subLabel}, index) => (
             <div key={index} className="bg-gray-800 p-6 rounded-lg text-center">
               <div
                 className="text-yellow-500 mb-2 mx-auto w-16"
                 dangerouslySetInnerHTML={{ __html: icon }}
               />
               <p className="text-2xl font-bold">{value}</p>
-              <p className="text-gray-400">{label}</p>
+              <p className="text-yellow-400 text-sm">{label}</p>
+              <p className="text-gray-400 mt-2 text-xs text-justify">{subLabel}</p>
             </div>
           ))}
         </div>

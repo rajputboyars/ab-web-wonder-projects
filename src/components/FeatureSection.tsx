@@ -5,17 +5,17 @@ const features = [
   {
     name: 'Leading in marketing.',
     description:
-      'Knowledge of technologies rules better than anyone which we apply in our daily office working schedule.',
+      'Cutting-edge digital marketing and SEO strategies to grow your online presence, applied daily by our skilled professionals.',
     icon: CloudArrowUpIcon,
   },
   {
     name: 'Expert developers.',
-    description: 'Knowledge of technologies rules better than anyone which we apply in our daily office working schedule.',
+    description: 'Skilled in MERN, Next.js, and PHP, building custom websites that stand out, with a focus on your success.',
     icon: LockClosedIcon,
   },
   {
-    name: 'Database backups.',
-    description: 'Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.',
+    name: 'Comprehensive Support.',
+    description: 'From graphic design and video editing to student project guidance and training, we’ve got you covered.',
     icon: ServerIcon,
   },
 ]
@@ -32,9 +32,9 @@ export default function FeatureSection() {
                 <p className="uppercase text-yellow-400">GET TO KNOW US</p>
               </div>
               <div className="mx-auto lg:mx-0 gap-36">
-                <h2 className="text-3xl font-semibold tracking-tight sm:text-5xl">The world best digital solutions we provide to you</h2>
+                <h2 className="text-3xl font-semibold tracking-tight sm:text-5xl">The Best Digital Solutions We Provide for You</h2>
                 <p className="mt-8 font-medium text-pretty text-gray-600">
-                  There are many variations of passages of available but the majority have suffered alteration in some form, by injected hum randomised words which do not slightly. but the majority have suffered alteration in some form.
+                  At <span className='text-yellow-500 font-semibold'>AB WEB WONDER</span>, we’re passionate about helping small shop owners thrive online and supporting college students with their projects. Our expert team delivers top-notch digital services tailored to your needs.
                 </p>
               </div>
               <dl className="mt-10 max-w-xl space-y-8 text-base/7 text-gray-600 lg:max-w-none">

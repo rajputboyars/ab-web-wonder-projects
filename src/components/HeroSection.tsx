@@ -6,10 +6,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'About Us', href: '#about-us' },
+  { name: 'Our Services', href: '#our-services' },
+  { name: 'Our Portfolio', href: '#our-portfolio' },
+  { name: 'Get In Touch', href: '#get-in-touch' },
 ]
 
 export default function HeroSection() {
@@ -26,8 +26,8 @@ export default function HeroSection() {
                 width={1000}
                 height={800}
                 alt=""
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
+                src="/images/Screenshot 2025-06-23 173036.png"
+                className="h-16 w-auto"
               />
             </a>
           </div>
@@ -43,7 +43,7 @@ export default function HeroSection() {
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white">
+              <a key={item.name} href={item.href} className="text-sm/6 font-semibold text-white hover:text-yellow-400">
                 {item.name}
               </a>
             ))}
@@ -137,10 +137,9 @@ export default function HeroSection() {
                 <br />
                 for your business
               </h1>
-              {/* <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-                fugiat veniam occaecat.
-              </p> */}
+              <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
+                Empowering Your Success, One Click at a Time!
+              </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"

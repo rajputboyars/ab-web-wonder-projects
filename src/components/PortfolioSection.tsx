@@ -70,7 +70,7 @@ const posts = [
 
 export default function PortfolioSection() {
     return (
-        <div className="bg-white pb-24 sm:pb-32">
+        <div id="our-portfolio" className="bg-white pb-24 sm:pb-32">
             <div className="mx-auto px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl text-center">
                     <div>

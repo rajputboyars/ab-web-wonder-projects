@@ -2,7 +2,7 @@ import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 
 export default function ContactSection() {
     return (
-        <div className="relative min-h-[80vh] bg-[url('https://php.kodesolution.com/2025/arotech-php/images/icons/pattern-17.jpg')] lg:h-52 w-full bg-cover bg-center bg-no-repeat">
+        <div id='get-in-touch' className="relative min-h-[80vh] bg-[url('https://php.kodesolution.com/2025/arotech-php/images/icons/pattern-17.jpg')] lg:h-52 w-full bg-cover bg-center bg-no-repeat">
             <div className="relative mx-auto max-w-7xl lg:grid lg:grid-cols-5">
                 <div className=" px-6 py-16 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
                     <div className="mx-auto max-w-lg">
@@ -101,7 +101,7 @@ export default function ContactSection() {
                             <div>
                                 <button
                                     type="submit"
-                                    className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medium text-white shadow-xs hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-hidden"
+                                    className="inline-flex justify-center rounded-md border border-transparent bg-yellow-600 px-6 py-3 text-base font-medium text-white shadow-xs hover:bg-yellow-700 focus:ring-2 focus:ring-yellow-500 focus:ring-offset-2 focus:outline-hidden"
                                 >
                                     Submit
                                 </button>
